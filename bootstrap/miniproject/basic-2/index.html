@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/app.css">
+  <title>Basic Template - 2</title>
+</head>
+
+<body id="Home">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-bs-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-bs-toggle="dropdown"
+                aria-expanded="false">Contact</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#aaa">디자인</a></li>
+                <li><a class="dropdown-item" href="#bbb">영상</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="https://www.daum.net" target="_blank">Web</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+          <form class="d-flex">
+            <input type="search" class="form-control me-2" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="my-5">
+    <!--  container start  -->
+    <div class="container">
+      <!--  row start  -->
+      <div class="row">
+        <div class="col-md-7">
+          <img src="./img/1.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-5">
+          <h1 class="mt-5">Busan</h1>
+          <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore adipisci quo est harum ut
+            atque inventore
+            velit magni! Molestiae laboriosam mollitia magni, deleniti amet iure asperiores perspiciatis eos maxime
+            voluptas!</p>
+          <a href="./portfolio.html" target="_blank"><button class="btn btn-primary mt-3">Portfolio</button></a>
+        </div>
+      </div>
+      <!-- row end  -->
+      <!--  row start  -->
+      <div class="row my-5">
+        <div class="col">
+          <div class="bg-secondary text-white p-3 card text-center">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row end  -->
+      <!--  row start  -->
+      <div id="aaa" class="row my-5">
+        <div class="col">
+          <div class="card-group">
+            <div class="card">
+              <img src="./img/2.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card Title 1</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, dolorum veritatis
+                  quos recusandae eaque, ipsam magnam, facilis autem sed perferendis pariatur exercitationem sapiente
+                  dolores consequuntur deleniti numquam obcaecati dolore cum.</p>
+              </div>
+              <a href="https://www.daum.net" target="_blank"><button class="btn btn-primary">Read more</button></a>
+            </div>
+            <div class="card">
+              <img src="./img/3.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card Title 2</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, dolorum veritatis
+                  quos recusandae eaque, ipsam magnam, facilis autem sed perferendis pariatur exercitationem sapiente
+                  dolores consequuntur deleniti numquam obcaecati dolore cum.</p>
+              </div>
+              <a href="https://www.daum.net" target="_blank"><button class="btn btn-primary">Read more</button></a>
+            </div>
+            <div class="card">
+              <img src="./img/4.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card Title 3</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, dolorum veritatis
+                  quos recusandae eaque, ipsam magnam, facilis autem sed perferendis pariatur exercitationem sapiente
+                  dolores consequuntur deleniti numquam obcaecati dolore cum.</p>
+              </div>
+              <a href="https://www.daum.net" target="_blank"><button class="btn btn-primary">Read more</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row end  -->
+
+      <div class="text-center">
+        <h2>Get in touch</h2>
+        <p class="land">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <!--  row start  -->
+      <div id="bbb" class="row justify-content-center my-5">
+        <div class="col-6">
+          <form action="">
+            <label for="email" class="form-label">Email : </label>
+            <input type="email" class="form-control" id="email" placeholder="my@email.com" />
+            <div class="my-5">
+              <label for="name" class="form-label">Name : </label>
+              <input type="text" id="name" placeholder="e.g. 김센텀" class="form-control" />
+            </div>
+            <label for="subject" class="form-label">Subject</label>
+            <select name="subject" id="subject" class="form-select">
+              <option value="pricing">Pricing</option>
+              <option value="technical" selected>Technical</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <div class="mt-5">
+              <label for="query">Write a message</label>
+              <textarea name="query" id="query" style="height: 150px;" class="form-control"
+                placeholder="Write a message"></textarea>
+            </div>
+
+            <div class="mt-5">
+              <button type="submit" class="btn btn-primary me-2">Send!</button>
+              <button type="reset" class="btn btn-danger">취소!</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <!-- row end  -->
+    </div>
+    <!--  container end  -->
+  </main>
+
+
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container">
+      <a href="http://centum.or.kr" target="_blank"><span>Copyrights 2024 김센텀</span></a>
+    </div>
+  </footer>
+
+
+  <script src="../../js/app.js"></script>
+</body>
+
+</html>
